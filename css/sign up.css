@@ -1,0 +1,59 @@
+body{background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+h1{
+    color: aliceblue;
+   display: flex;
+   justify-content: center;
+   margin-top: 65px;
+}
+h1:hover{
+    transform:scale(1.2)
+}
+section{
+    width: 290px ;
+    height: 350px;
+    background-color: blanchedalmond;
+    margin: auto;
+    border-radius: 10px;
+ 
+   
+
+}
+
+.container{
+    width: 290px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.name{
+    width: 100px;
+    height: 20px;
+margin: auto;
+border-radius: 10px;
+text-align: right;
+}
+.lab{
+    margin: auto;
+    border-radius: 10px;
+}
+.in{
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+    text-align: right;
+}
+button{
+    width: 60%;
+    border-radius: 10px;
+    background-color: #434343;
+    color: white;
+
+}
